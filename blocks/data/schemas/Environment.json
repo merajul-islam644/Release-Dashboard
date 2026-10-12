@@ -1,0 +1,10 @@
+{
+  "schemaName": "Environment",
+  "collectionName": "sb_Environments",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Name", "type": "String", "isRequired": true },
+    { "name": "Status", "type": "String" },
+    { "name": "HealthScore", "type": "Int" }
+  ]
+}

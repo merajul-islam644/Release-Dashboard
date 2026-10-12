@@ -1,0 +1,12 @@
+{
+  "schemaName": "Verification",
+  "collectionName": "sb_Verifications",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Type", "type": "String", "isRequired": true },
+    { "name": "Result", "type": "String" },
+    { "name": "Pass", "type": "String" },
+    { "name": "Evidence", "type": "String" },
+    { "name": "DeploymentId", "type": "String", "isRequired": true }
+  ]
+}

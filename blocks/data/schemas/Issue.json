@@ -1,0 +1,13 @@
+{
+  "schemaName": "Issue",
+  "collectionName": "sb_Issues",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Title", "type": "String", "isRequired": true },
+    { "name": "Severity", "type": "String" },
+    { "name": "Environment", "type": "String" },
+    { "name": "Status", "type": "String" },
+    { "name": "DeploymentId", "type": "String" },
+    { "name": "ReportedAt", "type": "DateTime" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaName": "TestRun",
+  "collectionName": "sb_TestRuns",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Name", "type": "String", "isRequired": true },
+    { "name": "Passed", "type": "Int" },
+    { "name": "Total", "type": "Int" },
+    { "name": "Environment", "type": "String" },
+    { "name": "Status", "type": "String" }
+  ]
+}

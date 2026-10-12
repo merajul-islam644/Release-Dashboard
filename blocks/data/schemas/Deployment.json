@@ -1,0 +1,16 @@
+{
+  "schemaName": "Deployment",
+  "collectionName": "sb_Deployments",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Version", "type": "String", "isRequired": true },
+    { "name": "Environment", "type": "String", "isRequired": true },
+    { "name": "Branch", "type": "String", "isRequired": true },
+    { "name": "Commit", "type": "String", "isRequired": true },
+    { "name": "DeployedBy", "type": "String" },
+    { "name": "DeployedAt", "type": "DateTime" },
+    { "name": "Status", "type": "String" },
+    { "name": "Pipeline", "type": "String" },
+    { "name": "TotalTime", "type": "String" }
+  ]
+}

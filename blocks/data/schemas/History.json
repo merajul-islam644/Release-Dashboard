@@ -1,0 +1,13 @@
+{
+  "schemaName": "History",
+  "collectionName": "sb_Historys",
+  "schemaType": 1,
+  "fields": [
+    { "name": "RecordType", "type": "String", "isRequired": true },
+    { "name": "RecordId", "type": "String", "isRequired": true },
+    { "name": "Action", "type": "String" },
+    { "name": "Detail", "type": "String" },
+    { "name": "ChangedBy", "type": "String" },
+    { "name": "ChangedAt", "type": "DateTime" }
+  ]
+}
